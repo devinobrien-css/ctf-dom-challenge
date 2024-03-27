@@ -6,8 +6,8 @@ interface TypewriterProps {
 }
 
 export const Typewriter = ({
-  text,
-  speed = 500,
+  text = 'uh oh, you forgot to add text!',
+  speed = 500, // default half a second
   ...rest
 }: TypewriterProps & HTMLAttributes<HTMLSpanElement>) => {
   const [displayText, setDisplayText] = useState('');

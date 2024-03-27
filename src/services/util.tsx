@@ -1,3 +1,8 @@
+/**
+ * Converts a NodeList to an array
+ * @param nodes NodeList of dom nodes
+ * @returns array of dom nodes
+ */
 export const nodeListToArray = (nodes: NodeListOf<ChildNode> | undefined) => {
   return Array.prototype.slice.call(nodes);
 };
