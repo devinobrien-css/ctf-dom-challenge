@@ -566,6 +566,22 @@ video {
   top: 0px;
 }
 
+.bottom-\[90\%\]{
+  bottom: 90%;
+}
+
+.left-\[90\%\]{
+  left: 90%;
+}
+
+.bottom-\[80\%\]{
+  bottom: 80%;
+}
+
+.left-\[80\%\]{
+  left: 80%;
+}
+
 .z-50{
   z-index: 50;
 }

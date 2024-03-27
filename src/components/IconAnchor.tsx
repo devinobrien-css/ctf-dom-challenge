@@ -23,7 +23,7 @@ export const IconAnchor = ({
       <Icon icon={icon} className="size-8" />
 
       {tooltip && (
-        <span className="absolute left-full top-0 z-50 -m-2 w-[0%] overflow-clip whitespace-nowrap rounded bg-gray-500 shadow transition-all group-hover:w-[295%] group-hover:p-2">
+        <span className="absolute bottom-[80%] left-[80%] z-50  w-[0%] overflow-clip whitespace-nowrap rounded bg-gray-500 shadow transition-all group-hover:w-[295%] group-hover:p-2">
           {tooltip}
         </span>
       )}
