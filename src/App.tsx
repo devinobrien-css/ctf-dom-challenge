@@ -1,8 +1,7 @@
-import { useEffect, useState } from 'react';
-import { findHiddenLink } from './util/util';
 import { Typewriter } from './components/Typewriter';
 import { IconAnchor } from './components/IconAnchor';
 import { useQuery } from './hooks/useQuery';
+import { findHiddenLink } from './services/rampService';
 
 const App = () => {
   const { data, error, loading } = useQuery({ fetchFunction: findHiddenLink });

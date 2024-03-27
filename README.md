@@ -2,6 +2,27 @@
 
 a react app solving a DOM-based CTF challenge
 
+## Repository Overview
+
+```bash
+├── src/
+│   ├── components/
+│   │   ├── IconAnchor.tsx
+│   │   └── Typewriter.tsx
+│   ├── hooks/
+│   │   └── useQuery.ts
+│   ├── App.tsx
+│   └── index.tsx
+├── public/
+│   ├── index.html
+│   └── ...
+├── node_modules/
+│   └── ...
+├── package.json
+├── README.md
+└──
+```
+
 ## Getting Started
 
 To run the web application locally, follow these simple steps:
