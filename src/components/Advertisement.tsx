@@ -22,7 +22,7 @@ export const Advertisement = () => {
       <IconAnchor
         tooltip="View my LinkedIn"
         icon="akar-icons:linkedin-fill"
-        href="https://www.linkedin.com/in/devinobrien-css/"
+        href="https://www.linkedin.com/in/obrien-devin/"
       />
     </div>
   );
