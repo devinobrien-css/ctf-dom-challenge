@@ -7,20 +7,24 @@ a react app solving a DOM-based CTF challenge
 ```bash
 ├── src/
 │   ├── components/
+│   │   ├── Advertisement.tsx
 │   │   ├── IconAnchor.tsx
-│   │   └── Typewriter.tsx
+│   │   └── Typewriter.tsx ❗Typewriter Component here❗
 │   ├── hooks/
 │   │   └── useQuery.ts
+│   ├── services/
+│   │   ├── http.tsx
+│   │   ├── util.tsx
+│   │   └── rampService.tsx ❗HTML Search Logic here❗
 │   ├── App.tsx
-│   └── index.tsx
+│   └── main.tsx
 ├── public/
-│   ├── index.html
 │   └── ...
 ├── node_modules/
 │   └── ...
 ├── package.json
 ├── README.md
-└──
+└── RAMP-CHALLENGE.md
 ```
 
 ## Getting Started
